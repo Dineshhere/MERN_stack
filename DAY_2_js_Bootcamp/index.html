@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="three-questions">
+      <!-- Question1 Voting -->
+      <div class="container" id="container">
+        <h2>Check your Eligibility for voting</h2>
+        <input type="text" id="age" placeholder="Enter your age" />
+        <button class="btn" onclick="voting()">Check!</button>
+        <p id="result"></p>
+      </div>
+
+      <!-- Question2 multiplication table -->
+      <div class="container" id="container_table">
+        <h2>Enter the number to get your multiplication table</h2>
+        <input type="text" id="number" placeholder="Enter the number" />
+        <button class="btn" onclick="table()">Calculate!</button>
+        <p id="result_table"></p>
+      </div>
+
+      <!-- dollar to INR -->
+      <div class="container" id="container_inr">
+        <h2>To convert Dollar to INR please enter the Dollar</h2>
+        <input
+          type="text"
+          id="dollar"
+          placeholder="Enter the dollar amount($)"
+        />
+        <button class="btn" onclick="converting()">Convert!</button>
+        <p id="result_inr"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
